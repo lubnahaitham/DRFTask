@@ -1,7 +1,7 @@
 # DRFTask
 
 Tools:
-Django3
+Django3,
 RestFramework(serialization)
 
 How to install:
