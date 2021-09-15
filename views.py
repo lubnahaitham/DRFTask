@@ -144,7 +144,7 @@ def order_detail(request, pk):
     """
     try:
         orders = Order.objects.get(pk=pk)
-    except Pet.DoesNotExist:
+    except Order.DoesNotExist:
         return HttpResponse(status=404)
 
     if request.method == 'GET':
